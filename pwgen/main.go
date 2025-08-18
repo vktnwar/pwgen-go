@@ -33,7 +33,7 @@ func main() {
 	includeLower := flag.Bool("lower", true, "Lower include")
 	includeNumbers := flag.Bool("n", true, "Numbers include")
 	includeSymbols := flag.Bool("sy", false, "Symbols include")
-	count := flag.Int("Count", 1, "pwns")
+	count := flag.Int("count", 1, "pwns")
 
 	flag.Parse()
 
